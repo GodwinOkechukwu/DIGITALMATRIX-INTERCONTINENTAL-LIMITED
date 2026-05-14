@@ -1,11 +1,13 @@
 import { Metadata } from "next";
 
 // 1. Core Configuration Constants
-export const SITE_NAME = "DIGITALMATRIX INTERCONTINENTAL LIMITED";
+export const SITE_NAME = "Digital Matrix Limited";
 export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ||
-  "https://warespire-innovations-limited.com"; // Update with actual URL
-export const TWITTER_HANDLE = "@warespireinnovations";
+  "http://digitalmatrix-limited.com"; // Update with actual URL
+export const TWITTER_HANDLE = "@digitalmatrix"; 
+export const SITE_EMAIL = "contact@digitalmatrix.com"; 
+
 
 interface SEOConfig {
   title: string;
@@ -93,9 +95,9 @@ export const SEODATA: Record<string, SEOConfig> = {
   register: {
     title: `Partner with Us | Join ${SITE_NAME}`,
     description:
-      "Create an account to start your project journey with warespire innovations and access premium tech resources.",
+      `Create an account to start your project journey with ${SITE_NAME} and access premium tech resources.`,
     keywords: [
-      "Get started with Warespire",
+      `Get started with ${SITE_NAME}`,
       "Project onboarding",
       "Digital partnership",
     ],

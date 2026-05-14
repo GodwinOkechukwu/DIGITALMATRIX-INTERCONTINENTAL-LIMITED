@@ -21,7 +21,7 @@ import heroImage2 from "./heroImage2.png";
 import logoImage from "./logoblue.png";
 import heroImage3 from "./heroImage3.png";
 import heroImage4 from "./heroImage4.png";
-import heroBg from "./heroobg.png";
+import heroBg from "./Containerbg.png";
 import speaker from "./speaker.png"
 import machineImage from "./machine-image.png";
 import speedImage from "./speedImage.png";

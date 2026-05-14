@@ -29,7 +29,6 @@ import { CircleUser } from "lucide-react";
 import { Menu, Transition } from "@headlessui/react";
 import {
   FiSearch,
-  FiShoppingBag,
   FiUser,
   FiLogOut,
   FiMenu,
@@ -37,6 +36,8 @@ import {
   FiShoppingCart,
   FiX,
 } from "react-icons/fi";
+import { MdShoppingCart } from "react-icons/md";
+
 import { SlArrowDown } from "react-icons/sl";
 import Flag from "react-world-flags";
 import GlobalLoader from "../modal/GlobalLoader";
@@ -346,7 +347,7 @@ const Header = () => {
 
             {/* Cart */}
             <div className="relative cursor-pointer group" onClick={onOpenCart}>
-              <FiShoppingBag className="text-2xl text-gray-500 group-hover:text-gray-700 transition" />
+              <MdShoppingCart className="text-2xl text-gray-500 group-hover:text-gray-700 transition" />
               {totalItems > 0 && (
                 <span className="absolute -top-1.5 -right-1.5 size-5 bg-gray-800 text-white text-[10px] font-black flex items-center justify-center rounded-full border-2 border-black">
                   {totalItems}
@@ -458,7 +459,7 @@ const Header = () => {
               <LogoImage className="!w-[100px] brightness-200" />
             </div>
             <div onClick={onOpenCart} className="relative">
-              <FiShoppingBag className="text-2xl text-white" />
+              <MdShoppingCart className="text-2xl text-white" />
               {totalItems > 0 && (
                 <span className="absolute -top-2 -right-2 size-4 bg-blue-600 rounded-full text-[9px] flex items-center justify-center text-white">
                   {totalItems}

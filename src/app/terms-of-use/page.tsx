@@ -6,6 +6,7 @@ import { CompanyName } from "@constants";
 import RefundPolicy from "./_components/RefundPolicy";
 import DeliveryReturn from "./_components/DeliveryReturn";
 import AppMenu from "@src/components/Navbars/AppMenu";
+import {  SITE_NAME,  } from "@constants/seoContants";
 
 const Page = () => {
   const searchParams = useSearchParams().toString();
@@ -94,7 +95,7 @@ const Page = () => {
                   Terms of Service & Procurement Agreement
                 </h4>
                 <p className="mt-3 leading-[1.8] text-xs md:text-sm xl:text-base">
-                  By accessing the Warespire Innovations platform and initiating
+                  By accessing the {SITE_NAME} platform and initiating
                   a procurement request, you agree to be bound by the following
                   operational terms and conditions:
                 </p>
@@ -105,7 +106,7 @@ const Page = () => {
                   <span className="font-bold text-slate-800 block uppercase text-[11px] tracking-wider mb-1">
                     01. Phased Payment Structure
                   </span>
-                  Warespire Innovations operates on a two-phase payment model.{" "}
+                   operates on a two-phase payment model.{" "}
                   <strong>Phase 1 (Procurement):</strong> Covers the cost of
                   goods and must be verified before items are purchased from
                   international vendors. <strong>Phase 2 (Logistics):</strong>{" "}
@@ -139,7 +140,7 @@ const Page = () => {
                     04. Exchange Rate Fluctuations
                   </span>
                   Prices for international procurement are subject to global
-                  market volatility. Warespire Innovations reserves the right to
+                  market volatility.  reserves the right to
                   adjust invoices if there is a significant shift in the
                   exchange rate between the time of order placement and the time
                   of actual procurement.
@@ -151,7 +152,7 @@ const Page = () => {
                   </span>
                   Customers are responsible for ensuring that their requested
                   items are not on the Nigerian Customs Service prohibition
-                  list. Warespire Innovations reserves the right to cancel
+                  list.  reserves the right to cancel
                   procurement for items deemed illegal or restricted.
                 </li>
 
@@ -181,7 +182,7 @@ const Page = () => {
                   <span className="font-bold text-slate-800 not-italic uppercase text-[10px] block mb-1">
                     Limitation of Liability:
                   </span>
-                  Warespire Innovations acts as a procurement and logistics
+                   acts as a procurement and logistics
                   facilitator. We are not the manufacturers of the goods
                   purchased. Any product warranty claims must be directed to the
                   original manufacturer, though we will provide reasonable
@@ -198,7 +199,7 @@ const Page = () => {
                   01. Data Intelligence & Collection
                 </h4>
                 <p className="mt-3 leading-[1.8] text-xs md:text-sm xl:text-base">
-                  Warespire Innovations collects personal information to provide
+                   collects personal information to provide
                   a secure, seamless international procurement and logistics
                   experience. We act as a data controller under the Nigeria Data
                   Protection Regulation (NDPR). By using our services, you
@@ -252,7 +253,7 @@ const Page = () => {
                     <span>
                       <strong>Fraud Mitigation:</strong> Running AML (Anti-Money
                       Laundering) checks and identity cross-referencing to
-                      protect the Warespire Innovations ecosystem.
+                      protect the  ecosystem.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
@@ -275,7 +276,7 @@ const Page = () => {
                     03. Data Security & Encryption
                   </h4>
                   <p className="mt-4 leading-[1.8] text-xs md:text-sm xl:text-base opacity-80">
-                    Warespire Innovations employs bank-grade AES-256 encryption
+                     employs bank-grade AES-256 encryption
                     to protect your sensitive identifiers (BVN/NIN). Your data
                     is stored in secure, siloed environments and is never sold
                     to third-party advertisers.
