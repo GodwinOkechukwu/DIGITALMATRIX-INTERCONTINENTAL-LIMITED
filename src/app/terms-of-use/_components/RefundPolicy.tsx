@@ -1,5 +1,5 @@
 import { useGeneralSettings } from "@src/components/lib/woocommerce";
-import { SITE_NAME, } from "@constants/seoContants";
+import { SITE_NAME } from "@constants/seoContants";
 import React from "react";
 
 const RefundPolicy = () => {
@@ -10,9 +10,9 @@ const RefundPolicy = () => {
   return (
     <div className="text-gray-600 space-y-6 text-xs sm:text-sm">
       <p>
-        At {SITE_NAME}, we strive for 100% accuracy in every order.
-        Since we act as your procurement and logistics partner, our policy is
-        designed to be fair to both you and our international suppliers.
+        At {SITE_NAME}, we strive for 100% accuracy in every order. Since we act
+        as your procurement and logistics partner, our policy is designed to be
+        fair to both you and our international suppliers.
       </p>
 
       <section>
@@ -70,8 +70,8 @@ const RefundPolicy = () => {
           </li>
           <li>
             <strong>Shipping Costs:</strong> If a return is approved because of
-            our error, Warespire Import covers the return shipping. For all
-            other approved returns, the customer bears the cost.
+            our error, Import covers the return shipping. For all other approved
+            returns, the customer bears the cost.
           </li>
         </ul>
       </section>
@@ -81,8 +81,8 @@ const RefundPolicy = () => {
           4. Missing Items & Supplier Discrepancies
         </h3>
         <p>
-          At {SITE_NAME}, we act as your dedicated procurement agent. While
-          we vet suppliers, we do not control their internal packing process. In
+          At {SITE_NAME}, we act as your dedicated procurement agent. While we
+          vet suppliers, we do not control their internal packing process. In
           the rare event that a supplier fails to ship an item or sends an
           incomplete order, the following policy applies:
         </p>

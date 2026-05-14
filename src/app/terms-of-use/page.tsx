@@ -129,7 +129,7 @@ const Page = () => {
                     03. Logistics & Timelines
                   </span>
                   While we strive for precision, all delivery timelines (Air:
-                  7-14 days; Sea: 45-60 days) are estimates. Warespire Digital
+                  7-14 days; Sea: 45-60 days) are estimates. digitalmatrix 
                   Innovations is not liable for delays caused by international
                   carrier schedules, weather conditions, or Nigerian Customs
                   Service inspections.
@@ -306,10 +306,10 @@ const Page = () => {
                   of non-essential communications, please contact our Data
                   Protection Officer at
                   <a
-                    href="mailto:support@Warespire.com"
+                    href="mailto:support@digitalmatrix.com"
                     className="text-primary-100 font-bold ml-1 hover:underline"
                   >
-                    privacy@Warespire.com
+                    privacy@digitalmatrix.com
                   </a>
                   .
                 </p>

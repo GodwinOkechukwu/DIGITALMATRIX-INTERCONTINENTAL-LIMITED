@@ -24,7 +24,7 @@ export const SEODATA: Record<string, SEOConfig> = {
     description:
       "Insightcore Technology Limited provides cutting-edge software development, AI integration, and digital transformation strategies to scale modern enterprises.",
     keywords: [
-      "Warespire Digital",
+      "digitalmatrix ",
       "Software Development Nigeria",
       "Digital Transformation",
       "AI Solutions for Business",
@@ -37,7 +37,7 @@ export const SEODATA: Record<string, SEOConfig> = {
   home: {
     title: `${SITE_NAME} | Leading Digital Solutions & Tech Excellence`,
     description:
-      "Innovate and grow with Warespire. We build high-performance digital products, from mobile apps to enterprise AI systems, tailored to your business needs.",
+      "Innovate and grow with digitalmatrix. We build high-performance digital products, from mobile apps to enterprise AI systems, tailored to your business needs.",
     keywords: [
       "Mobile App Development",
       "Enterprise Software",
@@ -85,11 +85,11 @@ export const SEODATA: Record<string, SEOConfig> = {
   login: {
     title: `Client Portal Login | ${SITE_NAME}`,
     description:
-      "Access your Warespire client dashboard to track project progress, manage subscriptions, and collaborate with your dev team.",
+      "Access your digitalmatrix client dashboard to track project progress, manage subscriptions, and collaborate with your dev team.",
     keywords: [
       "Client login",
       "Project tracking portal",
-      "Warespire dashboard access",
+      "digitalmatrix dashboard access",
     ],
   },
   register: {
