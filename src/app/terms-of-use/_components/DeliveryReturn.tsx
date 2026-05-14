@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import { SITE_NAME, } from "@constants/seoContants";
 
 const DeliveryReturn = () => {
   return (
@@ -12,7 +13,7 @@ const DeliveryReturn = () => {
         <p className="text-sm md:text-base leading-relaxed max-w-4xl">
           At{" "}
           <span className="font-bold text-slate-900">
-            Warespire Innovations
+            {SITE_NAME}
           </span>
           , we prioritize the integrity of your cargo. From international
           arrival to last-mile delivery, we utilize a strictly monitored courier
@@ -132,7 +133,7 @@ const DeliveryReturn = () => {
           <p>
             •{" "}
             <span className="font-bold text-slate-800">Transfer of Risk:</span>{" "}
-            Warespire Innovations bears no responsibility for items signed for
+            {SITE_NAME} bears no responsibility for items signed for
             by unauthorized third parties.
           </p>
           <p>

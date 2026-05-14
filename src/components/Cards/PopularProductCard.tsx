@@ -268,11 +268,11 @@ const PopularProductCard = ({
                 style={{ background: "#E5E1E4", color: "#E5E1E4" }}
                 onMouseEnter={(e) =>
                   ((e.currentTarget as HTMLButtonElement).style.background =
-                    "#d4ae40")
+                    "#000")
                 }
                 onMouseLeave={(e) =>
                   ((e.currentTarget as HTMLButtonElement).style.background =
-                    "#E5E1E4")
+                    "#000")
                 }
                 aria-label="Increase quantity"
               >
